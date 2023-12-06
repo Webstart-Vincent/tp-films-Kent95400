@@ -49,15 +49,18 @@ p {
     }
     .trois {
         background-color: #050505;
+        color: white;
     }
     .quatre {
         background-color: #7c4319;
     }
     .cinq {
         background-color: #311d0f;
+        color: white;
     }
     .six {
         background-color: #17191e;
+        color: white;
     }
 }
 
@@ -77,6 +80,7 @@ p {
         background-color: rgb(44, 44, 44);
         font-size: 16px;
         padding: 50;
+
     }
     
     section {
@@ -101,21 +105,25 @@ p {
     }
     .un {
         background-color: #c6c8ae;
+        
     }
     .deux {
         background-color: red;
     }
     .trois {
         background-color: #050505;
+        color: white;
     }
     .quatre {
         background-color: #7c4319;
     }
     .cinq {
         background-color: #311d0f;
+        color: white;
     }
     .six {
         background-color: #17191e;
+        color: white;
     }
 
     }
