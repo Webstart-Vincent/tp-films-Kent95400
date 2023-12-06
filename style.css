@@ -3,6 +3,7 @@ body {
     font-weight: 400px;
     font-size: 18px;
     background-color: antiquewhite;
+    display: none;
 }
 section {
     padding: 25px;
@@ -37,6 +38,26 @@ p {
         border-radius: 5%;
         background-color: antiquewhite;
         margin-bottom: 60px;
+        align-items: center;
+        justify-items: center;
+    }
+    un {
+        background-color: #c6c8ae;
+    }
+    .deux {
+        background-color: red;
+    }
+    .trois {
+        background-color: #050505;
+    }
+    .quatre {
+        background-color: #7c4319;
+    }
+    .cinq {
+        background-color: #311d0f;
+    }
+    .six {
+        background-color: #17191e;
     }
 }
 
@@ -57,6 +78,7 @@ p {
         font-size: 16px;
         padding: 50;
     }
+    
     section {
         display: grid;
         grid-template-columns: 2fr 3fr;
@@ -65,6 +87,8 @@ p {
         border: radius 10%;
         background-color: antiquewhite;
         margin-bottom: 40px;
+        align-items: center;
+        justify-items: center;
     }
 
     h1 {
@@ -74,5 +98,25 @@ p {
     }
     p {
         text-align: left;
+    }
+    .un {
+        background-color: #c6c8ae;
+    }
+    .deux {
+        background-color: red;
+    }
+    .trois {
+        background-color: #050505;
+    }
+    .quatre {
+        background-color: #7c4319;
+    }
+    .cinq {
+        background-color: #311d0f;
+    }
+    .six {
+        background-color: #17191e;
+    }
+
     }
 }
