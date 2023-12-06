@@ -1,3 +1,3 @@
 # Slide HTML
 
-My first responsive page available on <projet-warcraft.netlify.app>
+My first slide page available on <slide-project.netlify.app>
