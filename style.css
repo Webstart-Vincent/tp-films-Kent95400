@@ -7,12 +7,15 @@ body {
 }
 img {
     border-radius: 20px;
+
 }
+
 section {
     padding: 20px;
     border-radius: 40px;
     margin-bottom: 40px;
     gap: 27px;
+    
 }
 
 h1 {
@@ -92,6 +95,9 @@ p {
         background-color: #17191e;
         color: white;
     }
+    h1, p{
+        display: block;
+    }
 }
 
 h1 {
@@ -113,6 +119,31 @@ p {
         padding: 50;
     }
 
+    main {
+
+        display: grid;
+    
+        gap: 40px;
+    
+        padding: 40px;
+    
+        width: 100dvw;
+    
+        height: 100dvh;
+    
+        overflow: scroll;
+    
+        /* grid-auto-flow: column;
+        
+        grid-auto-columns: calc(100dvw - 80px); */
+    
+        grid-template-rows: calc(100dvh - 80px);
+    
+        scroll-snap-type: x mandatory;
+    
+        /* scroll-snap-align: y; */ 
+    }
+
     section {
         display: grid;
         grid-template-columns: 2fr 3fr;
@@ -123,6 +154,8 @@ p {
         margin-bottom: 40px;
         align-items: center;
         justify-items: center;
+        scroll-snap-align: center;
+        
     }
     img {
         border-radius: 20px;
